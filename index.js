@@ -216,7 +216,7 @@ class SassCompiler {
       rootPath: this.rootPath,
       altPaths: this.includePaths,
       reverseArgs: true,
-      globDeps: true,
+      globDeps: false,
     });
   }
 
